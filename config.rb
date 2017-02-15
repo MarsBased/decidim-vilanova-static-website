@@ -58,3 +58,22 @@ helpers do
     "<svg class=\"#{iconClass} icon--#{name} #{options[:class]}\"#{size} #{role} #{aria_label} #{aria_hidden}> <use xlink:href=\"#{asset_url '/images/icons.svg'}#icon-#{name}\" /> </svg>"
   end
 end
+
+configure :build do
+  ignore 'shapes/*'
+  activate :minify_html
+  activate :minify_css
+  activate :minify_javascript
+  activate :gzip
+  activate :unpublished_pages
+  activate :asset_hash
+  set :environment, 'production'
+end
+
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.host   = ''
+  deploy.path   = ''
+  deploy.user  = 'deploy'
+  deploy.flags = '-avzp --chmod=+r'
+end
