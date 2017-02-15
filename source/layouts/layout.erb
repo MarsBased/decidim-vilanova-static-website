@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="author" content="">
+    <meta name="copyright" content="">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= current_page.data.title %></title>
+    <%= stylesheet_link_tag :application %>
+    <%= javascript_include_tag  :head %>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCb2sQJ5xv5AvcGe5GEgogP4AVZq91-M8" async="async" defer="defer"></script>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <%= javascript_include_tag  :body %>
+    <%= javascript_include_tag  :marker %>
+    <%= javascript_include_tag  :map %>
+  </body>
+</html>

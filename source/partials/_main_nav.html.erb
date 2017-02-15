@@ -1,0 +1,45 @@
+<div class="show-for-medium" data-set="nav-holder">
+  <nav class="navbar js-append">
+    <div class="row column">
+      <ul class="main-nav">
+        <li><a class="main-nav__link
+          <% if current_page.data.activesection == "home" %>
+           main-nav__link--active
+          <% end %>
+          " href="/home">Inici</a></li>
+        <li>
+          <a class="main-nav__link
+          <% if current_page.data.activesection == "processes" %>
+           main-nav__link--active
+          <% end %>
+          " href="/processes">Processos</a>
+        </li>
+       <!-- <li>
+          <a class="main-nav__link
+          <% if current_page.data.activesection == "spaces" %>
+           main-nav__link--active
+          <% end %>
+          " href="">Espais</a></li>-->
+        <!--<li><a class="main-nav__link
+          <% if current_page.data.activesection == "data" %>
+           main-nav__link--active
+          <% end %>
+          " href="">Datos</a></li>-->
+        <li><a class="main-nav__link
+          <% if current_page.data.activesection == "more-info" %>
+             main-nav__link--active
+          <% end %>
+          " href="/more-information">Més informació</a>
+        </li>
+        <li><a class="main-nav__link
+          <% if current_page.data.activesection == "news" %>
+           main-nav__link--active
+          <% end %>
+          " href="http://eldigital.barcelona.cat/pambcn" target="_blank">
+            Noticies
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
