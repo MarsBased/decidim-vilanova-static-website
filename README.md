@@ -2,9 +2,9 @@
 
 Decidim Vilanova is the upcoming participatory democracy platform of Ajuntament de Vilanova i la Geltrú, powered by [Decidim](https://github.com/AjuntamentdeBarcelona/decidim).
 
-This repository contains the static website used to promote and announce the platform. Developed with [Middleman](https://middlemanapp.com/).
+This repository contains the static website used to promote and announce the platform.
 
-Uses Grunt to automatize SVG inline generation.
+Developed with [Middleman](https://middlemanapp.com/). Uses Grunt to automatize SVG inline generation.
 
 ## Development
 
