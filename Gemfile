@@ -10,6 +10,8 @@ gem 'middleman-email', github: 'marsbased/middleman-email'
 
 gem 'middleman-deploy', '~> 1.0'
 
+gem 'middleman-unpublished_pages', git: 'git://github.com/dvdgs88/middleman-unpublished_pages.git', branch: 'develop'
+
 source 'https://rails-assets.org' do
   ## gem 'rails-assets-ngDialog'
 end

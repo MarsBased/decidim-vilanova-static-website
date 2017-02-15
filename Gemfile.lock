@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/dvdgs88/middleman-unpublished_pages.git
+  revision: 75acea6f8a81250c08241139a7db6a0c4b10bd26
+  branch: develop
+  specs:
+    middleman-unpublished_pages (0.0.1)
+      middleman-core (>= 3.3.12)
+
+GIT
   remote: git://github.com/marsbased/middleman-email.git
   revision: 32cc41f23376eb0fe876cdd747a9efe534604543
   specs:
@@ -174,6 +182,7 @@ DEPENDENCIES
   middleman-deploy (~> 1.0)
   middleman-email!
   middleman-livereload (~> 3.1.0)
+  middleman-unpublished_pages!
 
 BUNDLED WITH
    1.13.6
