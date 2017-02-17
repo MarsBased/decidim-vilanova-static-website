@@ -22,6 +22,7 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
     <%= stylesheet_link_tag :application %>
     <%= javascript_include_tag  :head %>
+    <%= javascript_include_tag :analytics if config[:environment] == 'production' %>
   </head>
   <body class="<%= page_classes %>">
     <%= yield %>
