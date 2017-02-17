@@ -1,52 +1,67 @@
 ---
 title: participa.vilanova.cat
-activesection: processes
-activepage : proposals
+activesection: proposals
 ---
 
 <%= partial 'partials/template_top' %>
 
 <main class="wrapper">
-  <%= partial 'partials/process_header' %>
-  <div class="row columns">
-    <a href="" class="muted-link">
-      <%= icon "chevron-left", class: "icon--small" %>
-      Volver
-    </a>
-    <h2 class="section-heading">Nueva propuesta</h2>
-  </div>
+  <!-- <div class="row column">
+    <h1 class="heading1 page-title">Enviar proposta</h1>
+  </div> -->
   <div class="row">
     <div class="columns large-6 medium-centered">
       <div class="card">
         <div class="card__content">
+
+          <div class="card__header">
+            <h1 class="heading2">Enviar proposta</h1>
+          </div>
+          <div class="callout warning">
+            <p>
+              <a href="/more-information" target="_blank"
+                title="Més informació">Quin tipus de propostes pots presentar?</a>
+            </p>
+          </div>
           <form class="register-form">
             <div>
               <div>
-                <label>Título de la propuesta
-                  <input type="text" placeholder="Nueva propuesta en decidim.barcelona">
+                <label>Títol de la proposta
+                  <input type="text"
+                    placeholder="Nova proposta per participa.vilanova.cat">
                 </label>
               </div>
               <div>
-                <label>Descripción de la propuesta
-                  <textarea placeholder="¿Qué propones?" rows="10"></textarea>
+                <label>Descripció de la proposta
+                  <textarea placeholder="Què proposes?" rows="10"></textarea>
+                </label>
+                <p class="help-text">Indica la necessitat a que dona resposta
+                  i el pressupost aproximat (si el coneixes)</p>
+              </div>
+              <br />
+              <h6 class="heading6">Dades de contacte</h6>
+              <div>
+                <label>Nom i cognoms
+                  <input type="text"
+                    placeholder="Com et dius?">
                 </label>
               </div>
               <div>
-                <label>Categoría
-                  <select>
-                    <option></option>
-                    <option>Categoría 1</option>
-                    <option>Categoría 2</option>
-                  </select>
+                <label>Adreça
+                  <input type="text"
+                    placeholder="Quina és la teva adreça?">
                 </label>
               </div>
               <div>
-                <label>Subcategoría
-                  <select>
-                    <option></option>
-                    <option>Subcategoría 1</option>
-                    <option>Subcategoría 2</option>
-                  </select>
+                <label>Telèfon
+                  <input type="text"
+                    placeholder="Un telèfon de contacte">
+                </label>
+              </div>
+              <div>
+                <label>Correu electrònic
+                  <input type="text"
+                    placeholder="Una direcció de correu electrònic">
                 </label>
               </div>
             </div>
