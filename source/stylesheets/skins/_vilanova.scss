@@ -1,12 +1,20 @@
 //Title bar
-
 .logo-cityhall {
   right: 5px;
 }
 
-//Main Footer
+//Topbar
+.language-choose {
+  padding-right: 2.5rem;
+}
 
+//Main Footer
 .main-footer__badge {
   top: 22px;
   margin-left: 20px;
+}
+
+//Faq
+.more-information .section-heading {
+  margin-top: 1.5rem;
 }
