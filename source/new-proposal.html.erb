@@ -17,23 +17,53 @@ activesection: proposals
           <div class="card__header">
             <h1 class="heading2">Enviar proposta</h1>
           </div>
+
+          <!-- Default Callout -->
           <div class="callout warning">
             <p>
               <a href="/more-information" target="_blank"
                 title="Més informació">Quin tipus de propostes pots presentar?</a>
             </p>
           </div>
-          <form class="register-form">
+
+          <!-- Success Callout -->
+          <div id="new-proposal-form-callout-success" class="callout success" style="display:none;">
+            <p>La teva proposta ha estat enviada correctament. Moltes gràcies per la teva participació.</p>
+          </div>
+
+          <!-- Error Callout -->
+          <div id="new-proposal-form-callout-error" class="callout alert" style="display:none;">
+            <p>
+              Hi ha hagut un problema amb l'enviament de la teva proposta.
+              Si el problema persisteix, posa't en contacte amb nosaltres.
+            </p>
+          </div>
+          <form id="new-proposal-form" class="register-form" netlify netlify-honeypot="camp-per-bots">
             <div>
+              <div class="hide">
+                <label>Camp per bots
+                  <input
+                    name="camp-per-bots"
+                    type="text"
+                    placeholder="Camp per bots">
+                </label>
+              </div>
               <div>
                 <label>Títol de la proposta
-                  <input type="text"
+                  <input
+                    name="titol"
+                    type="text"
+                    required
                     placeholder="Nova proposta per participa.vilanova.cat">
                 </label>
               </div>
               <div>
                 <label>Descripció de la proposta
-                  <textarea placeholder="Què proposes?" rows="10"></textarea>
+                  <textarea
+                    name="descripcio"
+                    required
+                    placeholder="Què proposes?"
+                    rows="10"></textarea>
                 </label>
                 <p class="help-text">Indica la necessitat a que dona resposta
                   i el pressupost aproximat (si el coneixes)</p>
@@ -42,25 +72,37 @@ activesection: proposals
               <h6 class="heading6">Dades de contacte</h6>
               <div>
                 <label>Nom i cognoms
-                  <input type="text"
+                  <input
+                    name="nom-cognoms"
+                    type="text"
+                    required
                     placeholder="Com et dius?">
                 </label>
               </div>
               <div>
                 <label>Adreça
-                  <input type="text"
+                  <input
+                    name="adreca"
+                    type="text"
+                    required
                     placeholder="Quina és la teva adreça?">
                 </label>
               </div>
               <div>
                 <label>Telèfon
-                  <input type="text"
+                  <input
+                    name="telefon"
+                    type="text"
+                    required
                     placeholder="Un telèfon de contacte">
                 </label>
               </div>
               <div>
                 <label>Correu electrònic
-                  <input type="text"
+                  <input
+                    name="email"
+                    type="email"
+                    required
                     placeholder="Una direcció de correu electrònic">
                 </label>
               </div>

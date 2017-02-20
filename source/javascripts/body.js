@@ -7,6 +7,8 @@
 //= require svg4everybody.min.js
 //= require progressFixed.js
 
+//= require new-proposal-form
+
 $(document).foundation();
 
 $(".js-append").appendAround();
@@ -14,4 +16,5 @@ $(".js-append").appendAround();
 $(function(){
   svg4everybody();
   progressFixed();
+  newProposalForm();
 });
