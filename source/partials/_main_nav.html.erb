@@ -13,6 +13,12 @@
           <% end %>
           " href="/more-information">Més informació</a>
         </li>
+        <li><a class="main-nav__link
+          <% if current_page.data.activesection == "proposals" %>
+             main-nav__link--active
+          <% end %>
+          " href="/new-proposal">Enviar proposta</a>
+        </li>
       </ul>
     </div>
   </nav>
