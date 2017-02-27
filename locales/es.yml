@@ -46,6 +46,10 @@ es:
     field_email:
       title: "Correo electrónico"
       placeholder: "Una dirección de correo electrónico"
+    field_entity:
+      title: "Entidad (opcional)"
+      placeholder: "El nombre de la entidad que representas"
+      helper: "Si envías esta propuesta en nombre de una entidad o asociación, indica su nombre aquí"
     submit: "Enviar"
   terms_conditions:
     title: "Términos y condiciones de uso"

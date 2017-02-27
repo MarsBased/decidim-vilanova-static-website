@@ -46,6 +46,10 @@ ca:
     field_email:
       title: "Correu electrònic"
       placeholder: "Una direcció de correu electrònic"
+    field_entity:
+      title: "Entitat (opcional)"
+      placeholder: "El nom de l'entitat que representes"
+      helper: "Si envies aquesta proposta en nom d'una entitat o associació, indica el seu nom aquí"
     submit: "Enviar"
   terms_conditions:
     title: "Termes i condicions d'ús"

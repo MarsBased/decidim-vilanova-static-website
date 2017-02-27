@@ -105,6 +105,15 @@ activesection: proposals
                     placeholder="<%= t("new_proposal.field_email.placeholder") %>">
                 </label>
               </div>
+              <div>
+                <label><%= t("new_proposal.field_entity.title") %>
+                  <input
+                    name="entitat"
+                    type="text"
+                    placeholder="<%= t("new_proposal.field_entity.placeholder") %>">
+                </label>
+                <p class="help-text"><%= t("new_proposal.field_entity.helper") %></p>
+              </div>
             </div>
             <button type="submit" class="button expanded">
               <%= t("new_proposal.submit") %></button>
