@@ -5,20 +5,20 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= current_page.data.title %></title>
-    <meta name="description" content="Benvingut i benvinguda a la web de participació ciutadana de Vilanova i la Geltrú. A través d’aquest espai podràs obrir debats, opinar, fer propostes i decidir sobre el temes de ciutat que t’interessen." />
+    <meta name="description" content="<%= t("head.description") %>" />
     <meta property="og:title" content="participa.vilanova.cat">
-    <meta property="og:url" content="http://participa.vilanova.cat/">
-    <meta property="og:description" content="Benvingut i benvinguda a la web de participació ciutadana de Vilanova i la Geltrú. A través d’aquest espai podràs obrir debats, opinar, fer propostes i decidir sobre el temes de ciutat que t’interessen.">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:description" content="<%= t("head.description") %>">
+    <% if I18n.locale == :ca %>
+      <meta property="og:locale" content="ca_ES">
+      <meta property="og:url" content="http://participa.vilanova.cat/">
+    <% else %>
+      <meta property="og:locale" content="es_ES">
+      <meta property="og:url" content="http://participa.vilanova.cat/es">
+    <% end %>
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
-    <link rel="alternate" href="/?locale=ca" hreflang="ca">
-    <link rel="alternate" href="/?locale=es" hreflang="es">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@ajuntamentvng">
-    <meta name="twitter:title" content="participa.vilanova.cat">
-    <meta name="twitter:description" content="Benvingut i benvinguda a la web de participació ciutadana de Vilanova i la Geltrú. A través d’aquest espai podràs obrir debats, opinar, fer propostes i decidir sobre el temes de ciutat que t’interessen.">
-    <meta name="twitter:image" content="">
+    <link rel="alternate" href="/" hreflang="ca">
+    <link rel="alternate" href="/es" hreflang="es">
     <link rel="shortcut icon" href="/images/favicon.ico">
     <%= stylesheet_link_tag :application %>
     <%= javascript_include_tag  :head %>

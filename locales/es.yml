@@ -1,0 +1,60 @@
+---
+es:
+  head:
+    description: "Bienvenidos y bienvenidas a la web de participación ciudadana de Vilanova i la Geltrú. A través de este espacio podrás abrir debates, opinar, hacer propuestas y decidir sobre los temas de la ciudad que te interesan."
+  home:
+    title: Inicio
+    hero_title: "Construyamos entre todos y todas la ciudad que queremos"
+    hero_link: "Participa"
+    welcome_title: "Bienvenidos y bienvenidas a la web de participación ciudadana de Vilanova i la Geltrú. A través de este espacio podrás abrir debates, opinar, hacer propuestas y decidir sobre los temas de la ciudad que te interesan."
+    welcome_link: "¡Entra, participa i decide!"
+    bullets_title: "¿Cómo tomo parte en un proceso?"
+    bullets_meetings_title: "Encuentros"
+    bullets_meetings_description: "Vamos a conocer, debatir y compartir lo que pensamos que es importante para nuestra ciudad."
+    bullets_debates_title: "Debates"
+    bullets_debates_description: "Espacios para informarse y decidir sobre las propuestas de cada proceso."
+    bullets_proposals_title: "Propuestas"
+    bullets_proposals_description: "Espacio abierto de propuestas de los ciudadanos sobre en qué tipo de ciudad queremos vivir."
+    bullets_link: "Más información"
+  more_information:
+    title: "Más información"
+  new_proposal:
+    title: "Nueva propuesta"
+    warning: "¿Qué tipo de propuestas puedes presentar?"
+    callout_success: "Tu propuesta se ha enviado correctamente. Muchas gracias por tu participación."
+    callout_error: "Ha habido un problema con el envío de tu propuesta. Si el problema persiste, ponte en contacto con nosotros."
+    field_bots:
+      title: "Campo para bots"
+      placeholder: "Campo para bots"
+    field_title:
+      title: "Título de la propuesta"
+      placeholder: "Nueva propuesta para participa.vilanova.cat"
+    field_description:
+      title: "Descripción de la propuesta"
+      placeholder: "¿Qué propones?"
+      helper: "Indica la necesidad a que da respuesta y el presupuesto aproximado (si lo conoces)"
+    contact_data: "Datos de contacto"
+    field_personal_name:
+      title: "Nombre y apellidos"
+      placeholder: "¿Cómo te llamas?"
+    field_address:
+      title: "Dirección"
+      placeholder: "¿Cuál es tu dirección?"
+    field_phone:
+      title: "Teléfono"
+      placeholder: "Un teléfono de contacto"
+    field_email:
+      title: "Correo electrónico"
+      placeholder: "Una dirección de correo electrónico"
+    submit: "Enviar"
+  terms_conditions:
+    title: "Términos y condiciones de uso"
+  accessibility:
+    title: "Accesibilidad"
+  mini_footer:
+    copyright: "Esta web está hecha con"
+    open_source: "software libre"
+  error_404:
+    title: "¡No se ha encontrado la página que buscas!"
+    description: "Esta dirección es incorrecta o ha sido eliminada."
+    link: "Volver al inicio"

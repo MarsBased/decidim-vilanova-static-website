@@ -1,0 +1,60 @@
+---
+ca:
+  head:
+    description: "Benvingut i benvinguda a la web de participació ciutadana de Vilanova i la Geltrú. A través d’aquest espai podràs obrir debats, opinar, fer propostes i decidir sobre el temes de ciutat que t’interessen."
+  home:
+    title: "Inici"
+    hero_title: "Construïm entre tots i totes <br>la ciutat que volem"
+    hero_link: "Participa"
+    welcome_title: "Benvingut i benvinguda a la web de participació ciutadana de Vilanova i la Geltrú. A través d’aquest espai podràs obrir debats, opinar, fer propostes i decidir sobre el temes de ciutat que t’interessen."
+    welcome_link: "Entra, participa i decideix!"
+    bullets_title: "Com podré participar en un procés?"
+    bullets_meetings_title: "Trobades"
+    bullets_meetings_description: "Anem a conèixer, debatre i compartir el que pensem que és important per a la nostra ciutat."
+    bullets_debates_title: "Debats"
+    bullets_debates_description: "Espais per informar-te i decidir sobre les propostes de cada procés."
+    bullets_proposals_title: "Propostes"
+    bullets_proposals_description: "Espai obert de propostes dels ciutadans sobre quin tipus de ciutat volem viure."
+    bullets_link: "Més informació"
+  more_information:
+    title: "Més informació"
+  new_proposal:
+    title: "Nova proposta"
+    warning: "Quin tipus de propostes pots presentar?"
+    callout_success: "La teva proposta ha estat enviada correctament. Moltes gràcies per la teva participació."
+    callout_error: "Hi ha hagut un problema amb l'enviament de la teva proposta. Si el problema persisteix, posa't en contacte amb nosaltres."
+    field_bots:
+      title: "Camp per bots"
+      placeholder: "Camp per bots"
+    field_title:
+      title: "Títol de la proposta"
+      placeholder: "Nova proposta per participa.vilanova.cat"
+    field_description:
+      title: "Descripció de la proposta"
+      placeholder: "Què proposes?"
+      helper: "Indica la necessitat a que dona resposta i el pressupost aproximat (si el coneixes)"
+    contact_data: "Dades de contacte"
+    field_personal_name:
+      title: "Nom i cognoms"
+      placeholder: "Com et dius?"
+    field_address:
+      title: "Adreça"
+      placeholder: "Quina és la teva adreça?"
+    field_phone:
+      title: "Telèfon"
+      placeholder: "Un telèfon de contacte"
+    field_email:
+      title: "Correu electrònic"
+      placeholder: "Una direcció de correu electrònic"
+    submit: "Enviar"
+  terms_conditions:
+    title: "Termes i condicions d'ús"
+  accessibility:
+    title: "Accessibilitat"
+  mini_footer:
+    copyright: "Aquesta web està feta amb"
+    open_source: "software lliure"
+  error_404:
+    title: "No s'ha trobat la pàgina que busques!"
+    description: "Aquesta adreça és incorrecta o ha estat eliminada."
+    link: "Tornar a l'inici"

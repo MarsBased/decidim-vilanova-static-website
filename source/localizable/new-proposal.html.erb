@@ -1,0 +1,118 @@
+---
+title: participa.vilanova.cat
+activesection: proposals
+---
+
+<%= partial 'partials/template_top' %>
+
+<main class="wrapper">
+
+  <div class="row">
+    <div class="columns large-6 medium-centered">
+      <div class="card">
+        <div class="card__content">
+
+          <div class="card__header">
+            <h1 class="heading2"><%= t("new_proposal.title") %></h1>
+          </div>
+
+          <!-- Default Callout -->
+          <div class="callout warning">
+            <p>
+              <a href="<%= url_for local_path("more-information") %>" target="_blank"
+                title="<%= t("more_information.title") %>">
+                <%= t("new_proposal.warning") %></a>
+            </p>
+          </div>
+
+          <!-- Success Callout -->
+          <div id="new-proposal-form-callout-success" class="callout success"
+            style="display:none;">
+            <p><%= t("new_proposal.callout_success") %></p>
+          </div>
+
+          <!-- Error Callout -->
+          <div id="new-proposal-form-callout-error" class="callout alert"
+            style="display:none;">
+            <p><%= t("new_proposal.callout_error") %></p>
+          </div>
+
+          <form name="nova-proposta" id="new-proposal-form" class="register-form"
+            netlify netlify-honeypot="camp-per-bots">
+            <div>
+              <div class="hide">
+                <label><%= t("new_proposal.field_bots.title") %>
+                  <input
+                    name="camp-per-bots"
+                    type="text"
+                    placeholder="<%= t("new_proposal.field_bots.placeholder") %>">
+                </label>
+              </div>
+              <div>
+                <label><%= t("new_proposal.field_title.title") %>
+                  <input
+                    name="titol"
+                    type="text"
+                    required
+                    placeholder="<%= t("new_proposal.field_title.placeholder") %>">
+                </label>
+              </div>
+              <div>
+                <label><%= t("new_proposal.field_description.title") %>
+                  <textarea
+                    name="descripcio"
+                    required
+                    placeholder="<%= t("new_proposal.field_description.placeholder") %>"
+                    rows="10"></textarea>
+                </label>
+                <p class="help-text"><%= t("new_proposal.field_description.helper") %></p>
+              </div>
+              <br />
+              <h6 class="heading6"><%= t("new_proposal.contact_data") %></h6>
+              <div>
+                <label><%= t("new_proposal.field_personal_name.title") %>
+                  <input
+                    name="nom-cognoms"
+                    type="text"
+                    required
+                    placeholder="<%= t("new_proposal.field_personal_name.placeholder") %>">
+                </label>
+              </div>
+              <div>
+                <label><%= t("new_proposal.field_address.title") %>
+                  <input
+                    name="adreca"
+                    type="text"
+                    required
+                    placeholder="<%= t("new_proposal.field_address.placeholder") %>">
+                </label>
+              </div>
+              <div>
+                <label><%= t("new_proposal.field_phone.title") %>
+                  <input
+                    name="telefon"
+                    type="text"
+                    required
+                    placeholder="<%= t("new_proposal.field_phone.placeholder") %>">
+                </label>
+              </div>
+              <div>
+                <label><%= t("new_proposal.field_email.title") %>
+                  <input
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="<%= t("new_proposal.field_email.placeholder") %>">
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="button expanded">
+              <%= t("new_proposal.submit") %></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%= partial 'partials/template_bottom' %>

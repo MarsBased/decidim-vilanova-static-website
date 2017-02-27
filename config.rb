@@ -1,3 +1,6 @@
+require "lib/helpers"
+helpers Helpers
+
 # Change Compass configuration
 compass_config do |config|
   config.add_import_path "bower_components/foundation-sites/scss/"
@@ -15,9 +18,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
+set :root_locale, :ca
 
 activate :autoprefixer
 activate :livereload
+activate :i18n, mount_at_root: root_locale
 
 configure :development do
   set :environment, 'development'

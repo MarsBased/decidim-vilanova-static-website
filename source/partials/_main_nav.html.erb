@@ -2,22 +2,23 @@
   <nav class="navbar js-append">
     <div class="row column">
       <ul class="main-nav">
-        <li><a class="main-nav__link
-          <% if current_page.data.activesection == "home" %>
-           main-nav__link--active
-          <% end %>
-          " href="/">Inici</a></li>
-        <li><a class="main-nav__link
-          <% if current_page.data.activesection == "more-info" %>
-             main-nav__link--active
-          <% end %>
-          " href="/more-information">Més informació</a>
+        <li>
+          <a class="main-nav__link <% if current_page.data.activesection == "home" %>
+            main-nav__link--active<% end %>"
+            href="<%= url_for "index.html" %>">
+            <%= t("home.title") %></a>
         </li>
-        <li><a class="main-nav__link
-          <% if current_page.data.activesection == "proposals" %>
-             main-nav__link--active
-          <% end %>
-          " href="/new-proposal">Enviar proposta</a>
+        <li>
+          <a class="main-nav__link <% if current_page.data.activesection == "more-info" %>
+            main-nav__link--active<% end %>"
+            href="<%= url_for local_path("more-information") %>">
+            <%= t("more_information.title") %></a>
+        </li>
+        <li>
+          <a class="main-nav__link <% if current_page.data.activesection == "proposals" %>
+            main-nav__link--active<% end %>"
+            href="<%= url_for local_path("new-proposal") %>">
+            <%= t("new_proposal.title") %></a>
         </li>
       </ul>
     </div>

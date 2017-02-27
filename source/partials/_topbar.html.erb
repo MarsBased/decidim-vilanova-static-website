@@ -5,21 +5,35 @@
     <img src="/images/vilanova/vilanova-badge.svg"
          alt="Ajuntament de Vilanova i la Geltrú">
   </a>
+
   <div class="row column topbar">
     <div class="logo-wrapper">
-      <a href="/">
+      <a href="<%= url_for "index.html" %>">
         <img src="/images/vilanova/vilanova-logo-white.svg" width="200"
           alt="Participa Vilanova i la Geltrú">
       </a>
     </div>
     <div class="topbar__dropmenu language-choose">
       <ul class="dropdown menu" data-dropdown-menu>
-        <li class="is-dropdown-submenu-parent">
-          <a href="#">Català</a>
-          <ul class="menu is-dropdown-submenu">
-            <li><a href="#">Castellano</a></li>
-          </ul>
-        </li>
+        <% if I18n.locale == :ca %>
+          <li class="is-dropdown-submenu-parent">
+            <a>Català</a>
+            <ul class="menu is-dropdown-submenu">
+              <li>
+                <%= link_to('Castellano', local_path(current_page.path, language: :es), locale: :es) %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li class="is-dropdown-submenu-parent">
+            <a>Castellano</a>
+            <ul class="menu is-dropdown-submenu">
+              <li>
+                <%= link_to('Català', local_path(current_page.path, language: :ca), locale: :ca) %>
+              </li>
+            </ul>
+          </li>
+        <% end %>
       </ul>
     </div>
     <div class="hide-for-medium topbar__menu">

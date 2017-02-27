@@ -11,14 +11,15 @@ activesection: home
       <div class="row">
         <div class="columns small-centered large-10">
           <h1 class="text-highlight heading1 hero-heading">
-            Construïm entre tots i totes <br>la ciutat que volem
+            <%= t("home.hero_title") %>
           </h1>
         </div>
       </div>
       <div class="row">
         <div class="columns small-centered small-6 medium-4 mediumlarge-3">
-          <a href="/new-proposal" class="hero-cta button expanded large button--sc">
-            Participa
+          <a href="<%= url_for local_path("new-proposal") %>"
+            class="hero-cta button expanded large button--sc">
+            <%= t("home.hero_link") %>
           </a>
         </div>
       </div>
@@ -27,12 +28,10 @@ activesection: home
   <section class="extended subhero home-section">
     <div class="row">
       <div class="columns small-centered large-10">
-        <h2 class="heading3">Benvingut i benvinguda a la web de participació
-          ciutadana de Vilanova i la Geltrú . A través d’aquest espai podràs
-          obrir debats, opinar, fer propostes i decidir sobre el temes de
-          ciutat que t’interessen.</h2>
-        <a href="/new-proposal" class="button--sc link subhero-cta">
-          Entra, participa i decideix!
+        <h2 class="heading3"><%= t("home.welcome_title") %></h2>
+        <a href="<%= url_for local_path("new-proposal") %>"
+          class="button--sc link subhero-cta">
+          <%= t("home.welcome_link") %>
           <%= icon "chevron-right", aria_hidden: true %>
         </a>
       </div>
@@ -46,7 +45,7 @@ activesection: home
   <section class="extended">
     <div class="wrapper-home home-section">
       <div class="row column text-center">
-        <h3 class="heading2">Com podré participar en un procés?</h3>
+        <h3 class="heading2"><%= t("home.bullets_title") %></h3>
       </div>
       <div class="row small-up-1 medium-up-3 home-bullets">
         <div class="column">
@@ -55,9 +54,8 @@ activesection: home
               <%= icon "meetings" %>
             </div>
             <div class="home-bullet__desc">
-              <h4 class="heading6">Trobades</h4>
-              <p>Anem a conèixer, debatre i compartir el que pensem que és
-                important per a la nostra ciutat.</p>
+              <h4 class="heading6"><%= t("home.bullets_meetings_title") %></h4>
+              <p><%= t("home.bullets_meetings_description") %></p>
             </div>
           </div>
         </div>
@@ -67,9 +65,8 @@ activesection: home
               <%= icon "debates" %>
             </div>
             <div class="home-bullet__desc">
-              <h4 class="heading6">Debats</h4>
-              <p>Espais per informar-te i decidir sobre les propostes de cada
-                procés.</p>
+              <h4 class="heading6"><%= t("home.bullets_debates_title") %></h4>
+              <p><%= t("home.bullets_debates_description") %></p>
             </div>
           </div>
         </div>
@@ -79,9 +76,8 @@ activesection: home
               <%= icon "proposals" %>
             </div>
             <div class="home-bullet__desc">
-              <h4 class="heading6">Propostes</h4>
-              <p>Espai obert de propostes dels ciutadans sobre quin tipus de
-                ciutat volem viure.</p>
+              <h4 class="heading6"><%= t("home.bullets_proposals_title") %></h4>
+              <p><%= t("home.bullets_proposals_description") %></p>
             </div>
           </div>
         </div>
@@ -89,8 +85,9 @@ activesection: home
       <div class="row">
         <div class="columns small-centered small-10
                   smallmedium-8 medium-6 large-4">
-          <a href="/more-information" class="button expanded hollow button--sc">
-            Més informació
+          <a href="<%= url_for local_path("more-information") %>"
+            class="button expanded hollow button--sc">
+            <%= t("home.bullets_link") %>
           </a>
         </div>
       </div>

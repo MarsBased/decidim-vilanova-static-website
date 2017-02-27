@@ -20,7 +20,7 @@ Es poden fer propostes relacionades amb **l’espai públic** i en **millores d�
 
 ## Com pots participar?
 
-<h3 class="section-heading">Fes la teva proposta! - Del 6 al 18 d’abril</h3>
+<h3 class="section-heading section-heading__spaced">Fes la teva proposta! - Del 13 de març al 18 d’abril</h3>
 
 Qualsevol persona o entitat pot fer una proposta. Per fer propostes no cal estar empadronat a la ciutat. Com es poden fer?
 
@@ -31,11 +31,13 @@ Qualsevol persona o entitat pot fer una proposta. Per fer propostes no cal estar
 
 **A partir del 29 de maig** es podran consultar els projectes ciutadans finalistes.
 
-<h3 class="section-heading">Vota les millors propostes – Del 29 de maig a l’11 de juny</h3>
+<h3 class="section-heading section-heading__spaced">Vota les millors propostes – Del 29 de maig a l’11 de juny</h3>
 
 Tu decideixes quins projectes finalistes rebran els 150.000 euros.  Escull totes les propostes que vulguis fins esgotar el pressupost!
 
-Podran votar totes aquelles persones majors de 16 anys i empadronades a Vilanova i la Geltrú. Com es podrà votar?
+Podran votar totes aquelles persones majors de 16 anys i empadronades a Vilanova i la Geltrú.
+
+**Com es podrà votar?**
 
 - A través de la pàgina web participa.vilanova
 - Presencialment en els equipaments municipals habilitats
@@ -88,4 +90,4 @@ Fes propostes i vota o bé telemàticament o presencialment en aquests equipamen
 **Regidoria de Participació Ciutadana**<br />
 938140000 (ext 2040)<br />
 Plaça de la Vila 8<br />
-[participacio@vilanova.cat](mailto:participacio@vilanova.cat)<br />
+[participacio@vilanova.cat](mailto:participacio@vilanova.cat)
