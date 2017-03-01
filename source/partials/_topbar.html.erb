@@ -13,29 +13,31 @@
           alt="Participa Vilanova i la Geltrú">
       </a>
     </div>
-    <div class="topbar__dropmenu language-choose">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <% if I18n.locale == :ca %>
-          <li class="is-dropdown-submenu-parent">
-            <a>Català</a>
-            <ul class="menu is-dropdown-submenu">
-              <li>
-                <%= link_to('Castellano', local_path(current_page.path, language: :es), locale: :es) %>
-              </li>
-            </ul>
-          </li>
-        <% else %>
-          <li class="is-dropdown-submenu-parent">
-            <a>Castellano</a>
-            <ul class="menu is-dropdown-submenu">
-              <li>
-                <%= link_to('Català', local_path(current_page.path, language: :ca), locale: :ca) %>
-              </li>
-            </ul>
-          </li>
-        <% end %>
-      </ul>
-    </div>
+    <% unless current_page.path == "404.html" %>
+      <div class="topbar__dropmenu language-choose">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <% if I18n.locale == :ca %>
+            <li class="is-dropdown-submenu-parent">
+              <a>Català</a>
+              <ul class="menu is-dropdown-submenu">
+                <li>
+                  <%= link_to('Castellano', local_path(current_page.path, language: :es), locale: :es) %>
+                </li>
+              </ul>
+            </li>
+          <% else %>
+            <li class="is-dropdown-submenu-parent">
+              <a>Castellano</a>
+              <ul class="menu is-dropdown-submenu">
+                <li>
+                  <%= link_to('Català', local_path(current_page.path, language: :ca), locale: :ca) %>
+                </li>
+              </ul>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
     <div class="hide-for-medium topbar__menu">
       <button type="button" data-toggle="offCanvas">
         <%= icon "menu", aria_label: "Navegación", role: "img" %>
