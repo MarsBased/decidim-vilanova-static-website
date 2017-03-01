@@ -64,4 +64,7 @@
 //Home
 .hero {
   background-image: url("/images/hero-home.jpg");
+  &:after{
+    background-color: rgba($black, .2);
+  }
 }
