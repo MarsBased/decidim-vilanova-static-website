@@ -58,7 +58,3 @@ es:
   mini_footer:
     copyright: "Esta web está hecha con"
     open_source: "software libre"
-  error_404:
-    title: "¡No se ha encontrado la página que buscas!"
-    description: "Esta dirección es incorrecta o ha sido eliminada."
-    link: "Volver al inicio"
