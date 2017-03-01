@@ -58,7 +58,3 @@ ca:
   mini_footer:
     copyright: "Aquesta web està feta amb"
     open_source: "software lliure"
-  error_404:
-    title: "No s'ha trobat la pàgina que busques!"
-    description: "Aquesta adreça és incorrecta o ha estat eliminada."
-    link: "Tornar a l'inici"

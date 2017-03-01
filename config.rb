@@ -34,6 +34,9 @@ configure :build do
   set :environment, 'production'
 end
 
+page '/404.html', :directory_index => false
+
+
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
