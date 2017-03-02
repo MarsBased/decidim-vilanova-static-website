@@ -27,6 +27,8 @@ Cualquier persona o entidad puede hacer una propuesta. Para hacer propuestas no 
 - A través de la página web participa.vilanova.cat
 - Presencialmente en los equipamientos municipales habilitados
 
+<a href="/es/new-proposal" class="button button--sc small">Haz ahora tu propuesta</a>
+
 **Del 19 de abril al 19 de mayo**, el Ayuntamiento estudiará que cada una de las propuestas presentadas cumpla los requisitos, que sean visibles y legales y qué costaría llevarlas a cabo.
 
 **A partir del 29 de mayo**, se podrán consultar los proyectos ciudadanos finalistas.
@@ -90,3 +92,9 @@ Haz propuestas y vota o bien telemáticamente o presencialmente en estos equipam
 938140000 (ext 2040)<br />
 Plaza de la Vila 8<br />
 [participacio@vilanova.cat](mailto:participacio@vilanova.cat)
+
+## Haz tu propuesta
+
+Pulsa aquí para hacer ahora tu propuesta:
+
+<a href="/es/new-proposal" class="button button--sc large">Haz tu propuesta</a>
