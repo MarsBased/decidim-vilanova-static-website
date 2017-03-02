@@ -80,8 +80,7 @@ Haz propuestas y vota o bien telemáticamente o presencialmente en estos equipam
 - Centro Cívico Tacó (Av. De Vilafranca del Penedès,26)
 - Centro Cívico Sardana (C. Josep Anselm Clavé 74)
 - Casal Municipal de Gente Mayor (C. Josep Llanza, 4)
-- Biblioteca Joan Oliva (Plaça d ela Vila, 13)
-- Biblioteca Armand Cardona (C. de Menéndez y Pelayo 15-17)
+- Oficina Joven Garraf (Rasa del Miquelet, 16)
 
 <br />
 
