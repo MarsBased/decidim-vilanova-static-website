@@ -43,10 +43,10 @@ activesection: home
       <h4 class="heading3"><%= t("home.budgets_subtitle") %></h4>
     </div>
     <div class="row home-budgets__content">
-      <div class="column medium-6 small-1">
+      <div class="column large-6 medium-12">
         <%= image_tag 'vilanova/que-proposes.png', :alt => 'Què proposes?' %>
       </div>
-      <div class="column medium-6 small-1">
+      <div class="column large-6 medium-12">
         <%= partial 'content/budgets' %>
         <div class="home-budgets__cta">
           <a href="<%= url_for local_path("more-information") %>"

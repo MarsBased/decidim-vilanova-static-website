@@ -24,8 +24,10 @@ Es poden fer propostes relacionades amb **l’espai públic** i en **millores d�
 
 Qualsevol persona o entitat pot fer una proposta. Per fer propostes no cal estar empadronat a la ciutat. Com es poden fer?
 
-- A través de la pàgina web participa.vilanova
+- A través de la pàgina web participa.vilanova.cat
 - Presencialment en els equipaments municipals habilitats
+
+<a href="/new-proposal" class="button button--sc small">Fes ara la teva proposta</a>
 
 **Del 19 d’abril al 19 de maig**, l’Ajuntament estudiarà que cada una de les propostes presentades compleixi els requisits, que siguin viables i legals i què costaria portar-les a terme.
 
@@ -90,3 +92,11 @@ Fes propostes i vota o bé telemàticament o presencialment en aquests equipamen
 938140000 (ext 2040)<br />
 Plaça de la Vila 8<br />
 [participacio@vilanova.cat](mailto:participacio@vilanova.cat)
+
+<br />
+
+## Fes la teva proposta
+
+Clica aquí per fer ara la teva proposta:
+
+<a href="/new-proposal" class="button button--sc large">Fes la teva proposta</a>

@@ -75,14 +75,22 @@
 
 .home-budgets__content{
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 
   .heading5 {
     margin-bottom: 1rem;
   }
 
   img {
-    padding-right: 4rem;
+    border: 8px solid #005291;
+    padding: 3rem;
+    margin-bottom: 2rem;
+
+    @include breakpoint(large up){
+      margin-right: 2rem;
+      width: calc(100% - 2rem);
+      margin-bottom: 0;
+    }
   }
 
   .callout {
@@ -94,8 +102,8 @@
 .home-budgets__cta {
   margin-top: 1.5rem;
 
-  .button + .button{
-    margin-left: 1rem;
+  .button {
+    margin-right: 1rem;
   }
 }
 
