@@ -37,9 +37,31 @@ activesection: home
       </div>
     </div>
   </section>
-  <section class="wrapper-home">
-    <div class="row">
-      [Work in progress]
+  <section class="wrapper-home home-budgets">
+    <div class="row column text-center">
+      <h3 class="heading2"><%= t("home.budgets_title") %></h3>
+      <h4 class="heading3"><%= t("home.budgets_subtitle") %></h4>
+    </div>
+    <div class="row home-budgets__content">
+      <div class="column medium-6 small-1">
+        <%= image_tag 'vilanova/que-proposes.png', :alt => 'Què proposes?' %>
+      </div>
+      <div class="column medium-6 small-1">
+        <%= partial 'content/budgets' %>
+        <div class="home-budgets__cta">
+          <a href="<%= url_for local_path("more-information") %>"
+            class="button button--sc">
+            <%= t("home.budgets_cta_1") %>
+          </a>
+          <a href="<%= url_for local_path("new-proposal") %>"
+            class="button hollow button--sc">
+            <%= t("home.budgets_cta_2") %>
+          </a>
+        </div>
+        <div class="callout secondary">
+          <%= partial 'content/budgets-help' %>
+        </div>
+      </div>
     </div>
   </section>
   <section class="extended">
