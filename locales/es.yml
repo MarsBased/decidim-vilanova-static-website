@@ -8,8 +8,8 @@ es:
     hero_link: "Participa"
     welcome_title: "Bienvenidos y bienvenidas a la web de participación ciudadana de Vilanova i la Geltrú. A través de este espacio podrás abrir debates, opinar, hacer propuestas y decidir sobre los temas de la ciudad que te interesan."
     welcome_link: "¡Entra, participa i decide!"
-    budgets_title: "I tu, ¿qué propones?"
-    budgets_subtitle: "Presupuestos participativos"
+    budgets_title: "Presupuestos participativos"
+    budgets_subtitle: "I tu, ¿qué propones?"
     budgets_cta_1: "Más información"
     budgets_cta_2: "Haz tu propuesta"
     bullets_title: "Com podré participar en un procés?"
@@ -22,7 +22,8 @@ es:
     bullets_proposals_description: "Espacio abierto de propuestas de los ciudadanos sobre en qué tipo de ciudad queremos vivir."
     bullets_link: "Más información"
   more_information:
-    title: "Más información"
+    link: "Presupuestos participativos"
+    title: "¿Qué es Participa Vilanova i la Geltrú?"
   new_proposal:
     title: "Nueva propuesta"
     warning: "¿Qué tipo de propuestas puedes presentar?"

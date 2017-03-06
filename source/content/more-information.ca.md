@@ -1,5 +1,3 @@
-## Què és Participa Vilanova?
-
 És una plataforma digital de participació de l’Ajuntament de Vilanova i la Geltrú per construir una ciutat més democràtica i col·laborativa.
 
 A través de la plataforma podràs fer propostes, entrar als processos participatius, compartir idees en els debats o fer comentaris. Si estàs empadronat/ada a la ciutat i tens més de 16 anys també podràs votar quines propostes et semblen més interessants.
