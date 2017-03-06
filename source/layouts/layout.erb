@@ -25,6 +25,7 @@
     <%= javascript_include_tag :analytics if config[:environment] == 'production' %>
   </head>
   <body class="<%= page_classes %>">
+    <%= partial 'partials/cookie_bar' %>
     <%= yield %>
     <%= javascript_include_tag  :body %>
     <%= javascript_include_tag  :marker %>

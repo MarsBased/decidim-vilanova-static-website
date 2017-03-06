@@ -146,6 +146,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails-assets-js-cookie (2.1.1)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -183,6 +184,7 @@ DEPENDENCIES
   middleman-email!
   middleman-livereload (~> 3.1.0)
   middleman-unpublished_pages!
+  rails-assets-js-cookie!
 
 BUNDLED WITH
    1.13.6
