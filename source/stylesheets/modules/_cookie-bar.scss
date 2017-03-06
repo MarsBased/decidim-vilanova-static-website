@@ -1,4 +1,11 @@
+.cookies-show {
+  .cookie-warning {
+    display: block;
+  }
+}
+
 .cookie-warning{
+  display: none;
   background: $medium-gray;
   padding: .5em 1em;
   text-align: center;

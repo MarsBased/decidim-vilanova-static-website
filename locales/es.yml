@@ -2,6 +2,10 @@
 es:
   head:
     description: "Bienvenidos y bienvenidas a la web de participación ciudadana de Vilanova i la Geltrú. A través de este espacio podrás abrir debates, opinar, hacer propuestas y decidir sobre los temas de la ciudad que te interesan."
+  cookies:
+    content: "Este sitio web utiliza cookies propias y de terceros para mejorar la experiencia de navegación, y ofrecer contenidos y servicios de interés. Al continuar la navegación entendemos que se acepta nuestra política de cookies. Para más información consulta"
+    link: "aquí"
+    button: "Estoy de acuerdo"
   home:
     title: Inicio
     hero_title: "Construyamos entre todos y todas la ciudad que queremos"
