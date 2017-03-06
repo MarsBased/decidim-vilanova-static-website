@@ -2,7 +2,9 @@ Es una plataforma digital de participación del Ayuntamiento de Vilanova i la Ge
 
 A través de la plataforma podrás hacer propuestas, entrar en los procesos participativos, compartir ideas en los debates o hacer comentarios. Si estás empadronado/a en la ciudad y tienes más de 16 años también podrás votar qué propuestas te parecen más interesantes.
 
-La plataforma estará plenamente operativa durante las próximas semanas pero ya puedes presentar propuestas para los Presupuestos participativos.
+<div class="callout secondary">
+  <p>La plataforma estará plenamente operativa durante las próximas semanas pero ya puedes presentar propuestas para los Presupuestos participativos.</p>
+</div>
 
 <br />
 

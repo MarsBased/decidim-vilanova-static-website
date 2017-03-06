@@ -2,7 +2,9 @@
 
 A través de la plataforma podràs fer propostes, entrar als processos participatius, compartir idees en els debats o fer comentaris. Si estàs empadronat/ada a la ciutat i tens més de 16 anys també podràs votar quines propostes et semblen més interessants.
 
-La plataforma estarà plenament operativa durant les properes setmanes però ja es poden presentar propostes pels Pressupostos participatius.
+<div class="callout secondary">
+  <p>La plataforma estarà plenament operativa durant les properes setmanes però ja es poden presentar propostes pels Pressupostos participatius.</p>
+</div>
 
 <br />
 
