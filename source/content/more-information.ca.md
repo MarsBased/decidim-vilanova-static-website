@@ -57,7 +57,9 @@ Podran votar totes aquelles persones majors de 16 anys i empadronades a Vilanova
 - No comprometre el pressupost d’altres anys
 - Passaran a la fase de votació les que compleixin tots els requisits
 
-*Consulta el reglament complert dels pressupostos participatius a participa.vilanova.cat*
+Descarrega el reglament complert dels pressupostos participatius aquí:
+
+<a href="/docs/reglament.pdf" class="button button--sc small hollow" target="_blank">Descarrega el reglament</a>
 
 <br />
 
