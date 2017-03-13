@@ -57,7 +57,9 @@ Podrán votar todas aquellas personas mayores de 16 años y empadronadas en Vila
 - No comprometen el presupuesto de otros años
 - Pasarán a la fase de votación las que cumplan todos los requisitos
 
-*Consulta el reglamento completo de los presupuestos participativos en participa.vilanova.cat*
+Descarga el reglamento completo de los presupuestos participativos aquí:
+
+<a href="/docs/reglament.pdf" class="button button--sc small hollow" target="_blank">Descarga el reglamento</a>
 
 <br />
 
