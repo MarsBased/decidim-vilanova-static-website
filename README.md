@@ -1,5 +1,7 @@
 # Decidim Vilanova Static Website
 
+<a href="https://waffle.io/MarsBased/decidim-vilanova-static-website"><img src="https://img.shields.io/badge/Waffle-decidim--vilanova--static--website-blue.svg?colorB=78bdf2" /></a>
+
 Decidim Vilanova is the upcoming participatory democracy platform of Ajuntament de Vilanova i la Geltrú, powered by [Decidim](https://github.com/AjuntamentdeBarcelona/decidim).
 
 This repository contains the static website used to promote and announce the platform.
